@@ -688,6 +688,10 @@ ul.archive-list li span
     display: none;
 }
 
+.portfolio-text-holder p {
+  line-height: 32px;
+}
+
 .grid-item a:hover
 {
     color: #191919;
