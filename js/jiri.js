@@ -37,5 +37,28 @@ jQuery('body').ready(function() {
       });
     }, 5000);
   });
+  jQuery(function () {
+    let i = 1;
+    jQuery("img[data-type='home-image-slider']").hide();
+    jQuery(`img[data-slider-id-image=${i}]`).show();
+    setInterval(function () {
+      const prev = i;
+      i++;
+      if (i === 4) {
+        i = 1;
+      }
+      jQuery(`img[data-slider-id-image=${prev}]`).fadeOut(1500);
+      jQuery(`img[data-slider-id-image=${i}]`).fadeIn(1500);
+    }, 7000);
+  });
 })
 
+
+jQuery(window).on("scroll", function() {
+  if(jQuery(window).scrollTop() > 50) {
+    jQuery(".new-home-header").addClass("new-home-header-active");
+  } else {
+    //remove the background property so it comes transparent again (defined in your css)
+    jQuery(".new-home-header").removeClass("new-home-header-active");
+  }
+});
