@@ -180,39 +180,40 @@ body {
 
 .main-home {
   width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   padding: 0 140px;
   margin-top: 60px;
+  display: none;
 }
 
-@media only screen and (max-width: 1050px) {
-  .main-home {
-    margin-top: 60px;
-    padding: 0 100px;
-  }
-}
-@media only screen and (max-height: 800px) {
-  .main-home {
-    margin-top: 32px;
-  }
-}
-@media only screen and (max-width: 850px) {
-  .main-home {
-    padding: 0 60px;
-  }
-}
+/*@media only screen and (max-width: 1050px) {*/
+/*  .main-home {*/
+/*    margin-top: 60px;*/
+/*    padding: 0 100px;*/
+/*  }*/
+/*}*/
+/*@media only screen and (max-height: 800px) {*/
+/*  .main-home {*/
+/*    margin-top: 32px;*/
+/*  }*/
+/*}*/
+/*@media only screen and (max-width: 850px) {*/
+/*  .main-home {*/
+/*    padding: 0 60px;*/
+/*  }*/
+/*}*/
 
-@media only screen and (max-width: 750px) {
-  .main-home {
-    padding: 0 32px;
-  }
-}
+/*@media only screen and (max-width: 750px) {*/
+/*  .main-home {*/
+/*    padding: 0 32px;*/
+/*  }*/
+/*}*/
 
 @media only screen and (max-width: 580px) {
   .main-home {
+    display: flex;
     justify-content: center;
     margin-top: 30px;
   }

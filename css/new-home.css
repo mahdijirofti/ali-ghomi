@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 580px) {
+  .new-home {
+    display: none;
+  }
+}
 .new-home-top {
   height: 100vh;
   width: 100%;
