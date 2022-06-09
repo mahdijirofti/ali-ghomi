@@ -243,7 +243,7 @@
   width: 100%;
   background-image: url("/images/footer_bg.png");
   background-repeat: no-repeat;
-  background-size: 1920px 650px;
+  background-size: 1920px 700px;
 }
 
 .new-home-footer-container {
@@ -257,6 +257,7 @@
 
 .new-home-footer-title {
   font: normal normal 600 65px/76px Obvia;
+  margin-bottom: 32px;
   color: #FFFFFF;
 }
 .new-home-footer-logos {
@@ -273,4 +274,31 @@
 .new-home-header-active {
   background-color: rgba(246, 246, 246, 1);
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-home-footer-logos-container-1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.new-home-footer-logos-container-2 {
+  width: 100%;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.new-home-footer-logo {
+  height: 100px;
+  margin: 12px 12px 32px;
+}
+
+.new-home-footer-logo-2 {
+  height: 100px;
+  margin: 12px 12px 32px;
 }

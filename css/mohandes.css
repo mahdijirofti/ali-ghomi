@@ -55,11 +55,11 @@
 }
 .my-header .logo-black {
   width: 140px;
-  display: flex;
+  display: none;
 }
 .my-header .logo-gray {
-  width: 100px;
-  display: none;
+  width: 259px;
+  display: flex;
 }
 .my-header .logo-black img {
   width: 100%;
@@ -82,11 +82,11 @@
 
 @media only screen and (max-width: 580px) {
   .my-header .logo-gray {
-    display: flex;
+    width: 100px;
   }
-  .my-header .logo-black {
-    display: none;
-  }
+  /*.my-header .logo-black {*/
+  /*  display: none;*/
+  /*}*/
 }
 .container {
   display: flex;
@@ -94,9 +94,9 @@
 }
 
 .my-header .about {
-  font: normal normal 300 20px/26px Obvia;
+  font: normal normal 300 26px/30px Obvia;
   color: #BCBCBC;
-  margin-left: 36px;
+  margin-left: 20px;
   text-decoration: none;
 }
 
@@ -434,4 +434,43 @@ my-about-contact-email :visited {
 .my-video-container {
   margin: auto;
   margin-bottom: 24px;
+}
+
+div#nav {
+  position: relative;
+  margin-left: 20px;
+}
+.dropdown-toggle {
+  user-select: none;
+  color: #BCBCBC;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  width: 36px;
+  margin-right: 8px;
+}
+
+.dropdown-text {
+  color: #BCBCBC;
+  font: normal normal 300 26px/30px Obvia;
+}
+/**** ****/
+ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+  padding: 10px 10px 0;
+  background: #222222;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+ul.dropdown li { list-style-type: none; white-space: nowrap; color: #FFFFFF; margin-bottom: 16px}
+ul.dropdown li a { text-decoration: none; padding: 0em 1em; display: block; color: #FFFFFF; }
+ul.dropdown li a:hover {
+  color: #999999;
 }
