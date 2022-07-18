@@ -1,6 +1,20 @@
 .new-home {
   width: 100%;
   margin: 0;
+  display: block;
+}
+.mobile-home {
+  width: 100%;
+  margin: 0;
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .mobile-home {
+    display: block;
+  }
+  .new-home {
+    display: none;
+  }
 }
 
 .new-home-top {
@@ -19,7 +33,7 @@
   position: absolute;
   right: 80px;
   top: calc(100vh - 100px);
-  z-index: 4;
+  z-index: 2;
   width: 18px;
   cursor: pointer;
 }
@@ -274,7 +288,7 @@
 }
 
 .new-home-header {
-  background-color: rgba(246, 246, 246, 0.9);
+  background-color: rgba(246, 246, 246, 0.15);
   transition: all 0.3s linear;
   box-shadow: none;
 }
@@ -301,6 +315,10 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.new-home-footer-logo-1 {
+  height: 130px;
+  margin: 12px 12px 32px;
 }
 
 .new-home-footer-logo {

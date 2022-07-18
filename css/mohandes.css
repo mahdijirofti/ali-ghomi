@@ -60,6 +60,7 @@
 .my-header .logo-gray {
   width: 259px;
   display: flex;
+  flex-shrink: 0;
 }
 .my-header .logo-black img {
   width: 100%;
