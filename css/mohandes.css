@@ -149,6 +149,7 @@
 }
 
 .header-support {
+  display: none;
   height: 80px;
   margin-bottom: 24px;
   width: 100%;
@@ -160,6 +161,7 @@ body {
 @media only screen and (max-width: 580px){
 
   .header-support {
+    display: block;
     margin-bottom: 8px;
     height: 68px;
   }
@@ -261,14 +263,11 @@ body {
 
 @media only screen and (max-width: 580px) {
   .main-home .list-item {
-    height: 57px;
-    border: 1px solid #707070;
-    background-color: #dddbd9;
-    opacity: 0.8;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 18px;
-    font: normal normal normal 28px/32px Cy;
+    /*background-color: rgba(255,255,255,0.1);*/
+    font: normal normal 500 28px/32px Obvia;
+    color: #000000;
+    text-shadow: 0px 3px 6px #FFFFFF;
+    text-transform: uppercase;
   }
 }
 
@@ -441,6 +440,7 @@ div#nav {
   position: relative;
   margin-left: 20px;
 }
+
 .dropdown-toggle {
   user-select: none;
   color: #BCBCBC;
@@ -474,4 +474,10 @@ ul.dropdown li { list-style-type: none; white-space: nowrap; color: #FFFFFF; mar
 ul.dropdown li a { text-decoration: none; padding: 0em 1em; display: block; color: #FFFFFF; }
 ul.dropdown li a:hover {
   color: #999999;
+}
+
+@media only screen and (max-width: 580px) {
+  div#nav {
+    display: none;
+  }
 }
