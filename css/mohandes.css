@@ -1,4 +1,5 @@
 .my-header {
+  top: 0;
   display: flex;
   height: 80px;
   width: 100%;
@@ -152,10 +153,21 @@
 }
 
 .header-support {
-  display: none;
   height: 80px;
   margin-bottom: 24px;
   width: 100%;
+}
+
+.home-header-support {
+
+}
+
+@media only screen and (max-width: 580px) {
+  .home-header-support {
+    display: block;
+    margin-bottom: 8px;
+    height: 68px;
+  }
 }
 
 body {
@@ -283,10 +295,10 @@ body {
   }
 }
 
-.main-home .list-item:hover {
-  font-weight: bold;
-  text-decoration: underline;
-}
+/*.main-home .list-item:hover {*/
+/*  font-weight: bold;*/
+/*  text-decoration: underline;*/
+/*}*/
 
 .main-home .image-container {
   display: block;

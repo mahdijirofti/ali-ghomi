@@ -18,6 +18,7 @@
         <link rel="stylesheet" type="text/css"  href='../../style.css' />
         <link rel="stylesheet" href="../../css/normalize.css">
         <link rel="stylesheet" href="../../css/mohandes.css">
+      <link rel="stylesheet" href="/css/new-home.css">
         <link rel="stylesheet" href="https://use.typekit.net/mqa7blz.css">
       <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -32,35 +33,52 @@
 
     </head>
     <body class="page">
-        <header class="my-header">
-            <a class="logo-black" href="/">
-                <img src="../../images/logoـblack.png">
-            </a>
-            <a class="logo-gray" href="/">
-                <img src="../../images/logoـgray.png">
-            </a>
-            <div class="container">
-                <a href="https://www.instagram.com/a_ttg/" target="_blank">
-                    <div class="icon-container">
-                        <img src="../../images/icon-insta.png" class="icon">
-                    </div>
-                </a>
-                <a href="https://www.linkedin.com/in/ali-t-ghomi" target="_blank">
-                    <div class="icon-container">
-                        <img src="../../images/icon-linked-in.png" class="icon">
-                    </div>
-                </a>
-                <a href="https://www.artstation.com/alitg" target="_blank">
-                    <div class="icon-container">
-                        <img src="../../images/icon-social.png" class="icon">
-                    </div>
-                </a>
-                <a class="about" href="/about.html">
-                    ABOUT
-                </a>
+    <header class="my-header new-home-header">
+      <a class="logo-black" href="/">
+        <img src="/images/logoـblack.png">
+      </a>
+      <a class="logo-gray" href="/">
+        <img src="/images/logoـgray.png">
+      </a>
+      <div class="container">
+        <a href="https://www.instagram.com/a_ttg/" target="_blank">
+          <div class="icon-container">
+            <img src="/images/icon-insta.png" class="icon">
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/ali-t-ghomi" target="_blank">
+          <div class="icon-container">
+            <img src="/images/icon-linked-in.png" class="icon">
+          </div>
+        </a>
+        <a href="https://www.artstation.com/alitg" target="_blank">
+          <div class="icon-container">
+            <img src="/images/icon-social.png" class="icon">
+          </div>
+        </a>
+        <div id="nav">
+          <div class="dropdown-toggle">
+            <img class="dropdown-icon" src="/images/menu-icon.svg" alt="menu" />
+            <div class="dropdown-text">
+              WORKS
             </div>
-        </header>
-        <div class="header-support"></div>
+          </div>
+          <ul class="dropdown">
+            <li><a href="/architectural_design.html">Architectural Design</a></li>
+            <li><a href="/project_design.html">Product Design</a></li>
+            <li><a href="/furniture_design.html">Furniture Design</a></li>
+            <li><a href="/computational_design.html">Computational Design</a></li>
+            <li><a href="/experimental_art.html">Experimental Art</a></li>
+            <li><a href="/cgi.html">CGI</a></li>
+            <li><a href="/graphic_design.html">Graphic Design</a></li>
+          </ul>
+        </div>
+        <a class="about" href="/about.html">
+          ABOUT
+        </a>
+      </div>
+    </header>
+    <div class="header-support"></div>
         <div class="body-wrapper">
             <div id="content" class="site-content">
                 <article>
@@ -126,5 +144,6 @@
         <script src='../../js/jquery.ba-throttle-debounce.min.js'></script>
         <script src='../../js/main.js'></script>
         <script src='../../js/overlay.js'></script>
+        <script src='/js/header.js'></script>
     </body>
 </html>
