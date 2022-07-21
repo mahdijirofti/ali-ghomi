@@ -44,7 +44,7 @@ jQuery('body').ready(function() {
     setInterval(function () {
       const prev = i;
       i++;
-      if (i === 4) {
+      if (i === 3) {
         i = 1;
       }
       jQuery(`img[data-slider-id-image=${prev}]`).fadeOut(1500);

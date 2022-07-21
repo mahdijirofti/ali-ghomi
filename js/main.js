@@ -187,12 +187,14 @@ jQuery(window).on('load', function () {
       width: 'variable',
       auto: {
         play: auto_value,
-        pauseOnHover: hover_pause
+        // pauseOnHover: true,
+        // pauseOnEvent: true,
       },
       pagination: pagination_value,
       scroll: {
         fx: 'crossfade',
-        duration: parseFloat(speed_value)
+        duration: parseFloat(speed_value),
+        pauseOnHover  : true,
       },
       swipe: {
         onMouse: true,

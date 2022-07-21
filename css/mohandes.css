@@ -14,8 +14,10 @@
 .header-sync-padding {
   padding: 0 140px;
 }
-.my-header-home-page {
-  background-color: transparent;
+@media only screen and (max-width: 500px) {
+  .my-header-home-page {
+    background-color: transparent !important;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -60,6 +62,7 @@
 .my-header .logo-gray {
   width: 259px;
   display: flex;
+  flex-shrink: 0;
 }
 .my-header .logo-black img {
   width: 100%;
@@ -185,7 +188,6 @@ body {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 0 140px;
   margin-top: 60px;
   display: none;
 }
@@ -227,6 +229,7 @@ body {
 
 @media only screen and (max-width: 580px) {
   .main-home .list {
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -247,7 +250,6 @@ body {
 }
 .main-home .list-item {
   font: normal normal normal 36px/48px Cy;
-  margin-bottom: 36px;
   display: block;
   text-decoration: none;
   color: black;
@@ -256,18 +258,28 @@ body {
 
 @media only screen and (max-width: 1050px) {
   .main-home .list-item {
-    margin-bottom: 24px;
     font-size: 24px;
   }
 }
 
 @media only screen and (max-width: 580px) {
   .main-home .list-item {
-    /*background-color: rgba(255,255,255,0.1);*/
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.1);
+    padding: 0 32px;
     font: normal normal 500 28px/32px Obvia;
+    border-top: 1px solid rgba(100, 100, 100, 0.15);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 63px;
     color: #000000;
-    text-shadow: 0px 3px 6px #FFFFFF;
+    text-shadow: 0px 3px 6px rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
+  }
+  .main-home .list-item:last-child {
+    border-bottom: 1px solid rgba(100, 100, 100, 0.15);
   }
 }
 
