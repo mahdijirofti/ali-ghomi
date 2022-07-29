@@ -263,7 +263,7 @@ body {
   }
 }
 .main-home .list-item {
-  font: normal normal normal 36px/52px ofelia-text;
+  font: normal normal normal 32px/40px ofelia-text;
   display: block;
   text-decoration: none;
   color: black;
@@ -280,8 +280,8 @@ body {
   .main-home .list-item {
     box-sizing: border-box;
     background-color: rgba(255,255,255,0.1);
-    padding: 0 32px;
-    font: normal normal normal 28px/25px ofelia-text;
+    padding: 0 16px;
+    font: normal normal normal 22px/25px ofelia-text;
     border-top: 1px solid rgba(100, 100, 100, 0.15);
     width: 100%;
     display: flex;
