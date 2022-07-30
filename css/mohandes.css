@@ -61,7 +61,7 @@
   display: none;
 }
 .my-header .logo-gray {
-  width: 259px;
+  width: 200px;
   display: flex;
   flex-shrink: 0;
 }
@@ -98,16 +98,18 @@
 }
 
 .my-header .about {
-  font: normal normal 300 26px/30px Obvia;
+  font: normal normal 300 21px/25px ofelia-text;
   color: #BCBCBC;
-  margin-left: 20px;
+  margin-left: 16px;
+  margin-top: 5px;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 1050px) {
   .my-header .about {
     font-size: 20px;
-    margin-left: 24px;
+    margin-left: 16px;
+    margin-top: 5px;
   }
 }
 
@@ -123,8 +125,8 @@
   }
 }
 .my-header .icon-container {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   margin-left: 16px;
   border: 1px solid #BCBCBC;
@@ -261,7 +263,7 @@ body {
   }
 }
 .main-home .list-item {
-  font: normal normal normal 36px/48px Cy;
+  font: normal normal normal 32px/40px ofelia-text;
   display: block;
   text-decoration: none;
   color: black;
@@ -278,8 +280,8 @@ body {
   .main-home .list-item {
     box-sizing: border-box;
     background-color: rgba(255,255,255,0.1);
-    padding: 0 32px;
-    font: normal normal 500 28px/32px Obvia;
+    padding: 0 16px;
+    font: normal normal normal 22px/25px ofelia-text;
     border-top: 1px solid rgba(100, 100, 100, 0.15);
     width: 100%;
     display: flex;
@@ -358,7 +360,7 @@ body {
   margin-top: 16px;
 }
 .my-detail-content {
-  font-family: 'obvia-expanded';
+  font-family: ofelia-text;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -390,7 +392,7 @@ body {
 }
 
 .my-about-content {
-  font-family: 'obvia-expanded';
+  font-family: ofelia-text;
   font-weight: 400;
   font-size: 22px;
   line-height: 34px;
@@ -400,7 +402,7 @@ body {
 }
 
 .my-about-contact {
-  font-family: 'obvia-expanded';
+  font-family: ofelia-text;
   font-weight: 400;
   font-size: 22px;
   line-height: 34px;
@@ -475,14 +477,21 @@ div#nav {
 }
 
 .dropdown-icon {
-  width: 36px;
-  margin-right: 8px;
+  width: 32px;
+  margin-right: 4px;
 }
 
 .dropdown-text {
   color: #BCBCBC;
-  font: normal normal 300 26px/30px Obvia;
+  font: normal normal 300 21px/25px ofelia-text;
+  margin-top: 5px;
 }
++@media only screen and (max-width: 1050px) {
+  .dropdown-text {
+    font-size: 20px;
+  }
+}
+
 /**** ****/
 ul.dropdown {
   display: none;

@@ -61,22 +61,23 @@
 }
 
 .new-home-about-title {
-  font: normal normal 600 40px/47px Obvia;
+  font: normal normal 600 32px/37px ofelia-text;
   color: #545454;
-  margin-bottom: 11px;
+  margin-bottom: 8px;
 }
 
 .new-home-about-desc {
-  font: normal normal 300 31px/35px Obvia;
+  font: normal normal 500 25px/37px ofelia-text;
   color: #545454;
   max-width: 963px;
 }
 
 .new-home-about-read-more {
-  font: normal normal 600 31px/37px Obvia;
-  color: #545454;
+  font: normal normal 600 24px/37px ofelia-text;
+  color: #767676;
   text-decoration: none;
   cursor: pointer;
+  margin-top: 8px;
 }
 
 .new-home-about-read-more:visited {
@@ -91,7 +92,8 @@
 
 @media only screen and (max-width: 1100px) {
   .new-home-about-desc {
-    font: normal normal 300 27px/30px Obvia;
+    font: normal normal 300 22px/37px ofelia-text;
+
   }
 }
 @media only screen and (max-width: 920px) {
@@ -99,7 +101,7 @@
     margin-right: -50px;
   }
   .new-home-about-desc {
-    font: normal normal 300 24px/27px Obvia;
+    font: normal normal 300 20px/33px ofelia-text;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -107,10 +109,10 @@
     margin-right: -100px;
   }
   .new-home-about-desc {
-    font: normal normal 300 21px/24px Obvia;
+    font: normal normal 300 21px/27px ofelia-text;
   }
   .new-home-about-title {
-    font: normal normal 600 30px/37px Obvia;
+    font: normal normal 600 30px/40px ofelia-text;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -133,7 +135,7 @@
 
 .new-home-recent-title {
   margin-left: 20px;
-  font: normal normal 600 65px/76px Obvia;
+  font: normal normal 600 36px/44px ofelia-text;
   letter-spacing: -3.25px;
   color: #686868;
   margin-bottom: 30px;
@@ -174,7 +176,7 @@
   margin-top: 8px;
   cursor: pointer;
   text-decoration: none;
-  font: normal normal 300 27px/32px Obvia;
+  font: normal normal 300 27px/35px ofelia-text;
   color: #000000;
   margin-left: 26px;
 }
@@ -221,11 +223,11 @@
 }
 
 .new-home-category-container {
-  margin-top: 188px;
+  margin-top: 146px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1512px;
+  max-width: 1712px;
   padding: 0 12px;
   box-sizing: border-box;
 }
@@ -256,7 +258,7 @@
 .new-home-category-title {
   text-decoration: underline;
   cursor: pointer;
-  font: normal normal 500 65px/76px Obvia;
+  font: normal normal 500 41px/47px ofelia-text;
   color: #FFFFFF;
   text-shadow: 0px 4px 8px #000000DB;
 }
@@ -271,6 +273,12 @@
   color: #EEEEEE;
 }
 
+.new-home-footer-support {
+  height: 48px;
+  width: 100%;
+  background-color: #E1E1E1;
+}
+
 .new-home-footer {
   width: 100%;
   background-image: url("/images/footer_bg.png");
@@ -283,17 +291,17 @@
   margin-right: auto;
   width: 100%;
   max-width: 1512px;
-  padding: 88px 12px 0;
+  padding: 60px 12px;
   box-sizing: border-box;
 }
 
 .new-home-footer-title {
-  font: normal normal 600 65px/76px Obvia;
+  font: normal normal 600 40px/50px ofelia-text;
   margin-bottom: 32px;
   color: #FFFFFF;
 }
 .new-home-footer-logos {
-  margin-top: -10%;
+  /*margin-top: -10%;*/
   width: 100%;
 }
 
@@ -327,13 +335,22 @@
   flex-wrap: wrap;
 }
 .new-home-footer-logo-1 {
-  height: 130px;
+  height: 100px;
   margin: 12px 12px 32px;
 }
 
 .new-home-footer-logo {
-  height: 100px;
+  height: 70px;
   margin: 12px 12px 32px;
+}
+
+.new-home-footer-logos-v2 {
+  display: flex;
+  /*width: 100%;*/
+  padding: 0 32px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .new-home-footer-logo-4 {
@@ -342,6 +359,6 @@
 }
 
 .new-home-footer-logo-5 {
-  height: 180px;
+  height: 120px;
   margin: 12px 0 32px 12px;
 }
