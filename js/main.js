@@ -194,7 +194,7 @@ jQuery(window).on('load', function () {
       scroll: {
         fx: 'crossfade',
         duration: parseFloat(speed_value),
-        pauseOnHover  : true,
+        //pauseOnHover  : true,
       },
       swipe: {
         onMouse: true,
