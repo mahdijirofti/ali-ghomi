@@ -357,7 +357,7 @@ body {
   font-weight: 400;
   font-size: 36px;
   margin-bottom: 16px;
-  margin-top: 16px;
+  margin-top: 40px;
 }
 .my-detail-content {
   font-family: ofelia-text;
@@ -370,7 +370,7 @@ body {
   .my-detail-title {
     font-size: 24px;
     margin-bottom: 8px;
-    margin-top: 8px;
+    margin-top: 22px;
   }
   .my-detail-content {
     font-size: 18px;
