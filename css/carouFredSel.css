@@ -25,9 +25,9 @@ a.image_slider_prev{background-image: url(../images/nav_left.svg); width: 105px;
 a.image_slider_prev:hover{background-position: 0 -90px;}
 a.image_slider_next{background-image: url(../images/nav_right.svg); width: 105px; height: 90px; z-index: 2;}
 a.image_slider_next:hover{background-position: 0 -90px;}
-.carousel_pagination {margin-top: -58px; z-index: 2; position: absolute; margin-bottom: 50px; margin-left: 160px;}
+.carousel_pagination {margin-top: 13px; z-index: 2; position: absolute; margin-bottom: 50px; margin-left: 160px;}
 @media only screen and (max-width: 580px) {
-	.carousel_pagination {margin-top: -30px;}
+	.carousel_pagination {margin-top: 6px;}
 
 }
 .carousel_pagination a {margin: 0 0 0 5px; float: left;}
