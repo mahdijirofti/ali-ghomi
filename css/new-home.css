@@ -218,20 +218,20 @@
 .new-home-category {
   width: 100%;
   position: relative;
-  height: 340px;
+  height: 360px;
   overflow: hidden;
 }
 
 .new-home-category-container {
-  margin-top: 146px;
+  margin-top: 304px;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
   width: 100%;
-  max-width: 1712px;
-  padding: 0 12px;
+  /*max-width: 1712px;*/
+  padding: 5px 12px;
   box-sizing: border-box;
-  background-color: rgba(230, 230, 230, 0.5)
+  background-color: rgba(230, 230, 230, 0.7)
 }
 
 .new-home-category-background {
